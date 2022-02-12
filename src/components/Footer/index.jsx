@@ -1,8 +1,6 @@
 import React from 'react'
 import {ContainerStyled, WrapperStyled} from './styles'
 
-
-
 export const Footer = () => {
   return (
     <ContainerStyled>

@@ -3,13 +3,11 @@ import bgcBig from '../../../assets/bgc-invert.jpg'
 import bgcSmall from '../../../assets/bgc-invert-small.jpg'
 
 
-
 export const ContainerStyled = styled.div`
-
-background-repeat: no-repeat;
-min-height: 900px;
-background-color: red;
-padding: 20px;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  background-color: red;
+  padding: 20px;
 
 @media(min-width: 320px){
   background-size: cover;
@@ -17,8 +15,7 @@ padding: 20px;
   background-image: url("${bgcSmall}");
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 
