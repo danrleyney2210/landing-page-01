@@ -15,14 +15,15 @@ const Section05 = () => {
           <div className='wrapper-bonus-op'>
             <p>
               <img src={checkedFake} alt="checkbox" />
-              + de 100 aulas sobre Ableton Live Essencial
+              + de 60 aulas sobre como Impulsionar seus vídeos e sua música
             </p>
           </div>
     
           <div className='wrapper-bonus-op'>
             <p>
               <img src={checkedFake} alt="checkbox" />
-              <strong>Bônus</strong>: Edição no MELODYNE<span>De: R$ 106,00 por R$0,00</span>
+              <strong>Bônus:</strong> Curso de Google Ads
+              De: R$ 997,00 por R$0,00
               
             </p>
           </div>
@@ -30,23 +31,40 @@ const Section05 = () => {
           <div className='wrapper-bonus-op'>
             <p>
               <img src={checkedFake} alt="checkbox" />
-              <strong>Bônus</strong>: Básico do MAINSTAGE<span>De: R$ 147,00 por R$0,00</span>
+              <strong>Bônus:</strong> Acesso a Comunidade Mais Views
+              De: R$ 297,00 por R$0,00
             </p>
           </div>
 
           <div className='wrapper-bonus-op'>
             <p>
               <img src={checkedFake} alt="checkbox" />
-              <strong>Bônus</strong>: Básico do MAINSTAGE<span>De: R$ 147,00 por R$0,00</span>
+              <strong>Bônus:</strong> Mentoria individual para os 10 primeiros alunos
+            </p>
+          </div>
+
+          <div className='wrapper-bonus-op'>
+            <p>
+              <img src={checkedFake} alt="checkbox" />
+              <strong>Bônus:</strong> Curso Tire sua música do papel
+              De: R$ 297,00 por R$0,00
+            </p>
+          </div>
+
+          <div className='wrapper-bonus-op'>
+            <p>
+              <img src={checkedFake} alt="checkbox" />
+              <strong>Bônus:</strong> Lives com profissionais do mercado musical
+              De: R$ 297,00 por R$0,00
             </p>
           </div>
         </div>
     
         <div className='preco'>
-          <h5 className='preco-errado'>De <span>R$1197,00</span> por APENAS:</h5>
+          <h5 className='preco-errado'>De <span>R$997,00</span> por APENAS:</h5>
           <img src={precoBig} alt="preço" />
-          <h5>Ou à vista por R$ 297,00</h5>
-          <button>Sim! Eu quero dominar o Ableton Live</button>
+          <h5>Ou à vista por R$ 497,00</h5>
+          <button>Sim! Eu quero mais views</button>
         </div>
     
       </S.Container>

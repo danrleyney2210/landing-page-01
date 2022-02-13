@@ -73,8 +73,9 @@ margin: 0 auto;
   
   p{
     font-size: 16px;
-    line-height: 22px;
-    margin-top: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
     
     
     @media(min-width: 320px){

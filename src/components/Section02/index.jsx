@@ -4,31 +4,31 @@ const Default = () => {
   return (
     <S.Wrapper>
       <S.Container>
-        <h1>O que você vai encontrar no Ableton Live Essencial:</h1>
-        <h3>130 aulas + Arquivos para mixar</h3>
+        <h1>O que você vai encontrar no <br /> Método Mais Views:</h1>
+        <h3>60 aulas + Bônus + Aulas extras</h3>
         <div className="item">
           <div>
             <h1>01</h1>
-            <p>Mente de Crescimento</p>
+            <p>Mente de <br /> Crescimento</p>
           </div>
           <div>
             <h1>02</h1>
-            <p>Curso de Google Ads</p>
+            <p>Curso de <br /> Google Ads</p>
           </div>
           <div>
             <h1>03</h1>
-            <p>Curso de Facebook Ads</p>
+            <p>Curso de <br /> Facebook Ads</p>
           </div>
         </div>
 
         <div className="item">
           <div>
             <h1>04</h1>
-            <p>Curso de Spotify</p>
+            <p>Curso de <br /> Spotify</p>
           </div>
           <div>
             <h1>05</h1>
-            <p>Direitos Autorais</p>
+            <p>Direitos <br /> Autorais</p>
           </div>
           <div>
             <h1>06</h1>
@@ -52,7 +52,7 @@ const Default = () => {
           </div>
         </div>
 
-        <h2 style={{ marginTop: '2rem' }}>E ainda não acabou...</h2>
+        <h1 style={{ marginTop: '4rem', fontWeight: 'bold' }}>E ainda não acabou...</h1>
       </S.Container>
     </S.Wrapper>
   )

@@ -19,7 +19,6 @@ function App() {
       <Information />
       <Mais />
       <Section02 />
-      <Section03 />
       <Section04 />
       <Section05 />
       <Section06 />

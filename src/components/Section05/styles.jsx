@@ -5,7 +5,6 @@ import { darken } from 'polished'
 export const Wrapper = styled.div`
 width: 100vw;
 background-color: #fff;
-height: 558px;
 padding: 80px 30px;
 
 @media(max-width: 1000px){
@@ -16,7 +15,6 @@ padding: 80px 30px;
 
 
 export const Container = styled.div`
-
 display: grid;
 grid-template-columns: 1fr 1fr;
 max-width: 1140px;
@@ -26,7 +24,6 @@ margin: 0 auto;
 .preco {
   padding: 60px;
   max-width: 564px;
-  max-height: 411px;
   border: 3px solid black;
   border-radius: 10px;
   color:#2a2b31;
@@ -87,7 +84,7 @@ margin: 0 auto;
 
 
 .bonus{
-  padding: 10px;
+  padding: 16px;
   color: #292b30;
   max-width: 564px;
   

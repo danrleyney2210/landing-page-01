@@ -11,8 +11,13 @@ export const Section06 = () => {
         </div>
         <div className='div-text'>
           <h1>FIQUE TRANQUILO!</h1>
-          <h2>O <em>Ableton Live Essencial</em> tem <br /> garantia incondicional de 7 dias.</h2>
-          <p>Você pode assistir todas as aulas e ter acesso aos bônus exclusivos. Se por qualquer motivo você não ficar satisfeito com o método, basta entrar em contato com a minha equipe de suporte (contato@marciomello.online) e solicitar o reembolso do valor investido. Você receberá de volta cada centavo que pagou.</p>
+          <h2>
+            O Método Mais Views tem
+            garantia incondicional de 15 dias.
+          </h2>
+          <p>
+            Você pode assistir todas as aulas e ter acesso aos bônus exclusivos. Se por qualquer motivo você não ficar satisfeito com o método, basta entrar em contato com a minha equipe de suporte (metofomaisviews@gmail.com) e solicitar o reembolso do valor investido. Você receberá de volta cada centavo que pagou.
+          </p>
         </div>
       </WrapperStyled>
     </ContainerStyled>

@@ -11,15 +11,23 @@ export const Container = styled.div`
   text-align: center;
   padding: 5rem 0;
 
+  > h1 {
+    font-weight: 700;
+  }
+
   > h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
   }
 
   .item {
     display: flex;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #afafaf;
     justify-content: space-between;
     gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 
     div {
       width: 100%; 

@@ -9,12 +9,19 @@ export const Section07 = () => {
       <WrapperStyled >
         <div className='div-fake'></div>
         <div className='div-text'>
-          <h1>Diego Alburquerque</h1>
-          <p>Márcio Mello, um músico bem sucedido, muito versátil e extremamente criativo (chamado carinhosamente pelos amigos de criativo e operante), com habilidades ímpares e muita facilidade em acompanhar quaisquer gêneros musicais. Iniciou sua carreira musical muito cedo. Aos 15 anos já circulava por grandes estúdios e aos 18 dependia totalmente de sua arte, vivendo profissionalmente da sua música.</p>
-          <p>  Aprendeu a desenvolver suas habilidades com suas próprias técnicas de estudos, as quais vem aprimorando ao longo dos anos, ajudou mais de 1000 alunos na sua jornada de crescimento e evolução musical.</p>
-          <p>Acompanhou e participou de projetos com vários nomes do cenário musical, principalmente do meio gospel. Alguns deles foram Thales Roberto, Mariana e André Valadão, David Quinlan, Fred Arrais, Fernandinho, Preto no Branco, Wesley Santos, Alexandre Aposan e Leonardo Gonçalves.</p>
-          <p> Em eventos locais foram tantos nomes, que não seria possível citar todos aqui. Ao longo de sua carreira foram centenas de produções e arranjos, trilhas sonoras e campanhas publicitárias.</p>
-          <p>Atualmente é diretor/produtor musical da @central.online (uma grande igreja em Belo Horizonte), onde já produziu trilha sonora de filmes, vários musicais e muitos projetos locais.</p>
+          <h1>DIEGO ALBUQUERQUE</h1>
+          <p>
+            Diego Albuquerque, mineiro, gestor de tráfego, cantor, compositor, músico, empreendedor, com formação em Rádio e TV e Publicidade e Propaganda, uma pessoa com muitas habilidades e talentos. Iniciou sua carreira musical muito cedo. Aos 13 anos, especificamente em 2003, já tocava contrabaixo na igreja, cantava e montava sua primeira banda juntamente com seus irmãos. 
+          </p>
+          <p>
+            Em 2018, gravou seu primeiro EP autoral, intitulado A Calma, que alcançou a marca de 400 mil plays no Spotify.
+          </p>
+          <p>
+            Em 2019, fundou a ALBU, produtora de áudio e vídeo e agência de marketing que já ajudou centenas de artistas e cantores a monetizar os seus conteúdos, aumentar o número de visualizações, inscritos, engajamento, e alcançar uma base de fãs utilizando as principais ferramentas de anúncios: Facebook Ads e Google Ads. 
+          </p>
+          <p>
+            Com mais de 19 anos de experiência no cenário musical, já acumula mais de 3 milhões de visualizações e plays nas suas músicas autorais.
+          </p>
         </div>
       </WrapperStyled>
     
