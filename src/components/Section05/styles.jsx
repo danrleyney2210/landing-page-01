@@ -28,11 +28,100 @@ margin: 0 auto;
   border-radius: 10px;
   color:#2a2b31;
   box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   
   @media(max-width:500px){
     padding: 30px;
     
   }
+  
+  
+  
+  .valor-container{
+    text-align: center;
+    
+    p{
+      display: inline-block;
+    }
+    
+    p:nth-child(1){
+      
+      @media(max-width: 1140px){
+        font-size: 2rem;
+        
+      }
+      
+      @media(max-width: 440px){
+        font-size: 1.5rem;
+        
+      }
+      
+      font-size: 2.5rem;
+      font-weight: 600;
+      
+      span{
+        display: block;
+        text-align: right;
+        font-size: 4rem;
+        
+        @media(max-width: 1140px){
+          font-size: 3rem;
+          
+        }
+        
+        @media(max-width: 440px){
+          font-size: 2.5rem;
+          
+        }
+        
+      }
+    }
+    
+    
+    p:nth-child(2){
+      font-size: 9rem;
+      font-weight: 800;
+      margin-left: 20px;
+      
+      
+      @media(max-width: 1140px){
+        font-size: 8rem;
+        
+      }
+      
+      @media(max-width: 440px){
+        font-size: 6rem;
+
+      }
+      
+      span{
+        font-size: 3.5rem;
+        font-weight: 600;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 25px;
+        
+        @media(max-width: 1140px){
+          font-size: 3rem;
+          
+        }
+
+        @media(max-width: 440px){
+        font-size: 2rem;
+
+      }
+      }
+      
+    }
+    
+  }
+  
+  
+  
+  
+  
   
   h5{
     font-weight: 700;
@@ -40,9 +129,6 @@ margin: 0 auto;
     text-align: center;
   }
   
-  h5:nth-child(3){
-    margin-top: -15px;
-  }
   
   
   .preco-errado span{
@@ -50,11 +136,6 @@ margin: 0 auto;
     text-decoration: line-through;
   }
   
-  img{
-    display: block;
-    margin: -20px auto 0 auto;
-    width: 100%;
-  }
   
   button{
     background-color:RGB(67, 255, 255);
@@ -73,7 +154,7 @@ margin: 0 auto;
       background-color: ${darken(.17 , "#43ffff")}
     }
     
-
+    
     @media(max-width:500px){
       font-size: 1rem;
     }
@@ -134,7 +215,7 @@ margin: 0 auto;
     }
   }
   
-
+  
 } 
 
 
