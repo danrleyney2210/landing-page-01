@@ -1,14 +1,9 @@
 import styled from "styled-components"
 
-
-
 export const ContainerStyled = styled.div`
 text-align: center;
 padding: 60px 20px;
-
 `;
-
-
 
 export const WrapperMainVideo = styled.div`
   max-width: 1024px;
@@ -23,17 +18,15 @@ export const WrapperMainVideo = styled.div`
       font-size: 1.5rem;
     }
   }
-  `;
+`;
   
-  
-  
-  
-  
-  export const WrapperSlidesStyled = styled.div`
-  
+export const WrapperSlidesStyled = styled.div`
   margin: 0 auto;
-  max-width: 1024px
+  max-width: 1024px;
 
+  .item {
+    height: 440px;
+  }
 `;
 
 

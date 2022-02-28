@@ -4,12 +4,9 @@ import { darken } from "polished";
 
 
 export const ContainerStyled = styled.div`
-
-min-height: 380px;
-display: flex;
-align-items: center;
-
-
+  min-height: 380px;
+  display: flex;
+  align-items: center;
 `;
 
 

@@ -9,55 +9,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Section04 = () => {
 
-
-
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
   };
   
 
   return (
     <ContainerStyled>
-    
-      <WrapperMainVideo>
-        <h2 style={{ marginBottom: '3rem' }}> 
-          O que estão dizendo sobre o "Ableton Live Essencial"
-        </h2>
-    
-        <iframe width="80%" height="315" src="https://www.youtube.com/embed/BCvBnZ7tDdg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-      </WrapperMainVideo>
-    
+      <h1 style={{marginBottom: '2rem'}}>Olha só o que estão falando do método mais Views</h1>
       <WrapperSlidesStyled>
         <Slider {...settings} >
           <div className="item">

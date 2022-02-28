@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { darken } from 'polished'
 
 export const ContentButton = styled.button`
   background: #0FF;
@@ -10,4 +11,9 @@ export const ContentButton = styled.button`
   line-height: 28px;
   padding: 1rem;
   border: none;
+  transition: all 0.2s;
+
+  :hover {
+    background-color: ${darken(.06, "#0FF")};
+  }
 `
