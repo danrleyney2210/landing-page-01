@@ -1,11 +1,9 @@
 import React from 'react'
 import { ContainerStyled, WrapperStyled } from "./styles"
 
-
 export const Section07 = () => {
   return (
     <ContainerStyled>
-    
       <WrapperStyled >
         <div className='div-fake'></div>
         <div className='div-text'>
