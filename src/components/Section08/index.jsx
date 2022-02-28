@@ -1,10 +1,6 @@
 import React from 'react'
 import {ContainerStyled, WrapperStyled, ButtonStyled} from "./styles"
 
-
-
-
-
 export const Section08 = () => {
   return (
     <ContainerStyled>

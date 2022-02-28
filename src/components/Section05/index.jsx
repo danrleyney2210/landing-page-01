@@ -65,7 +65,7 @@ const Section05 = () => {
     
           <div className='valor-container'>
             <p>12x de<span>R$</span></p>
-            <p>28<span>,94</span></p>
+            <p>41<span>,91</span></p>
           </div>
     
           <h5>Ou à vista por R$ 497,00</h5>
