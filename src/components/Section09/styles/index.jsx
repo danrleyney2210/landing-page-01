@@ -33,10 +33,6 @@ h1, h1 + p, button{
 `;
 
 
-
-
-
-
 export const ButtonStyled = styled.button`
 background-color: #289e17;
 color: white;
