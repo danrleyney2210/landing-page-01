@@ -1,21 +1,21 @@
 import styled from "styled-components";
 import { darken } from "polished";
 
-
-
 export const ContainerStyled = styled.div`
   min-height: 380px;
   display: flex;
   align-items: center;
 `;
 
-
-
 export const WrapperStyled = styled.div`
 max-width: 1040px;
 margin: 0 auto;
 padding: 20px;
 text-align: center;
+
+a {
+  text-decoration: none;
+}
 
 h1{
   font-weight: 800;

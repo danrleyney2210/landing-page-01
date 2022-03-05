@@ -135,6 +135,10 @@ margin: 0 auto;
     color: #f31616;
     text-decoration: line-through;
   }
+
+  a {
+    text-decoration: none;
+  }
   
   
   button{
@@ -149,6 +153,8 @@ margin: 0 auto;
     font-weight: 800;
     transition: all .2s;
     box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
+
+    
     
     :hover{
       background-color: ${darken(.17 , "#43ffff")}

@@ -10,10 +10,6 @@ export const Wrapper =styled.div`
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media(max-width:490px) {
-    background-image: url(${myImage02});
-    
-  }
 `
 export const Container = styled.div`
   max-width: 1140px;

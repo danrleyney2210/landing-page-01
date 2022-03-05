@@ -69,7 +69,10 @@ const Section05 = () => {
           </div>
     
           <h5>Ou à vista por R$ 497,00</h5>
-          <button>Sim! Eu quero mais views</button>
+          <a href="https://pay.hotmart.com/I65996359K?off=752qhl8f">
+            <button>Sim! Eu quero mais views</button>
+          </a>
+          
         </div>
     
       </S.Container>

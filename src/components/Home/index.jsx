@@ -17,7 +17,9 @@ const Home = () => {
             Um <strong>método</strong> que vai te ajudar a impulsionar o seu conteúdo e sua música da 
             maneira certa. 
           </p>
-          <Button children="Sim! Eu quero mais views!"/>
+          <a href="https://pay.hotmart.com/I65996359K?off=752qhl8f">
+            <Button children="Sim! Eu quero mais views!"/>
+          </a>
         </div>
       </S.Container>
       
