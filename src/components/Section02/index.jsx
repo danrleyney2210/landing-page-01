@@ -52,7 +52,6 @@ const Default = () => {
           </div>
         </div>
 
-        <h1 style={{ marginTop: '4rem', fontWeight: 'bold' }}>E ainda não acabou...</h1>
       </S.Container>
     </S.Wrapper>
   )
