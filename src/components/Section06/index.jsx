@@ -1,13 +1,13 @@
 import React from 'react'
 import { ContainerStyled, WrapperStyled } from './styles'
-import {ReactComponent as Selo} from "../../assets/selo.svg"
+import Selo from "../../assets/selo30.png"
 
 export const Section06 = () => {
   return (
     <ContainerStyled>
       <WrapperStyled >
         <div className='div-selo'>
-          <Selo />
+          <img src={Selo} alt="" />
         </div>
         <div className='div-text'>
           <h1>FIQUE TRANQUILO!</h1>
@@ -23,3 +23,5 @@ export const Section06 = () => {
     </ContainerStyled>
     )
   }
+
+

@@ -27,6 +27,7 @@ min-height: 575px;
 max-width: 1140px;
 margin: 0 auto;
 display: grid;
+align-items: center;
 grid-template-columns: 1fr 1fr;
 
 
@@ -36,13 +37,15 @@ grid-template-columns: 1fr 1fr;
 
 
 .div-selo{
-  min-height: 575px;
+  padding: 1rem 0;
   display: flex;
+  justify-content: center;
   
-  svg{
-    margin: auto;
-    display: block;
-      
+  
+  img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
   }
 
   @media(max-width: 1000px){
